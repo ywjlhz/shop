@@ -1,0 +1,47 @@
+[ 2017-09-24T01:38:16+08:00 ] 127.0.0.1 /index.php/Home/login/reg.html
+ERR: 1146:Table 'mytaobao.tp_login' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_login`
+
+[ 2017-09-24T01:48:20+08:00 ] 127.0.0.1 /index.php/Home/login/__Home__/jquery.validate.min.js
+ERR: 非法操作:__Home__
+
+[ 2017-09-24T01:48:20+08:00 ] 127.0.0.1 /index.php/Home/login/__Home__/jquery-1.7.2.js
+ERR: 非法操作:__Home__
+
+[ 2017-09-24T01:48:20+08:00 ] 127.0.0.1 /index.php/Home/login/__Home__/jquery.validate.min.js
+ERR: 非法操作:__Home__
+
+[ 2017-09-24T01:48:34+08:00 ] 127.0.0.1 /index.php/Home/login/__Home__/jquery-1.7.2.js
+ERR: 非法操作:__Home__
+
+[ 2017-09-24T01:48:34+08:00 ] 127.0.0.1 /index.php/Home/login/__Home__/jquery.validate.min.js
+ERR: 非法操作:__Home__
+
+[ 2017-09-24T01:48:52+08:00 ] 127.0.0.1 /index.php/Home/login/__Home__/js/jquery-1.7.2.js
+ERR: 非法操作:__Home__
+
+[ 2017-09-24T01:48:53+08:00 ] 127.0.0.1 /index.php/Home/login/__Home__/js/jquery.validate.min.js
+ERR: 非法操作:__Home__
+
+[ 2017-09-24T01:48:54+08:00 ] 127.0.0.1 /index.php/Home/login/__Home__/js/jquery.validate.min.js
+ERR: 非法操作:__Home__
+
+[ 2017-09-24T01:48:54+08:00 ] 127.0.0.1 /index.php/Home/login/__Home__/js/jquery-1.7.2.js
+ERR: 非法操作:__Home__
+
+[ 2017-09-24T01:48:54+08:00 ] 127.0.0.1 /index.php/Home/login/__Home__/js/jquery.validate.min.js
+ERR: 非法操作:__Home__
+
+[ 2017-09-24T01:49:39+08:00 ] 127.0.0.1 /index.php/Home/login/__Home__/js/jquery-1.7.2.js
+ERR: 非法操作:__Home__
+
+[ 2017-09-24T01:49:40+08:00 ] 127.0.0.1 /index.php/Home/login/__Home__/js/jquery.validate.min.js
+ERR: 非法操作:__Home__
+
+[ 2017-09-24T21:09:01+08:00 ] 127.0.0.1 /index.php/home/goods/detil/id/3
+ERR: 非法操作:detil
+
+[ 2017-09-24T21:46:15+08:00 ] 127.0.0.1 /home/goods/detail/id/43
+ERR: 1146:Table 'mytaobao.tp_goodsattr' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_goodsattr`
+

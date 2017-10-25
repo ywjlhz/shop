@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <!--{$time|date='Y-m-d H:i:s',###}-->
+    <!--{$str|strtoupper|substr=0,5}-->
+    <!--<br>-->
+    <!--<foreach name="arr2" item="val">-->
+        <!--{$val.name1}-{$val.name2}-{$val.name3}-{$val.name4}-->
+        <!--<br>-->
+    <!--</foreach>-->
+    <switch name="$week">
+        <case value="1">
+        一
+        </case>
+        <case value="2">
+        二
+        </case>
+        <case value="3">
+        三
+        </case>
+        <case value="4">
+        四
+        </case>
+        <case value="5">
+        五
+        </case>
+        <case value="6">
+        六
+        </case>
+        <default />
+        日
+    </switch>
+</body>
+</html>

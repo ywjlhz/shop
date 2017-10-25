@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<tbody>
+<tr>
+    <td>当前角色：</td>
+    <td colspan="2">
+        {$data.role_name}
+    </td>
+</tr>
+<foreach name="menuData" item="d">
+    <tr>
+        <td rowspan="{$d['_child']|count}"><input <if condition="in_array($d['id'],$access_data)"> checked </if> value="{$d.id}" name="menu_id[]" data-id='{$d.id}' class="checkpart"  type="checkbox" >{$d.menu_name}</td>
+        <foreach name="d._child" item="dd">
+            <td>
+                <div style="width:100px;float:left;"><input <if condition="in_array($dd['id'],$access_data)"> checked </if> value="{$dd.id}" name="menu_id[]" type="checkbox"/>{$dd.menu_name}</div>
+            </td>
+            <td>
+                <foreach name="dd._child" item="ddd">
+                    <div style="width:100px;float:left;"><input <if condition="in_array($ddd['id'],$access_data)"> checked </if> value="{$ddd.id}" name="menu_id[]" type="checkbox"/>{$ddd.menu_name}</div>
+                </foreach>
+            </td>
+    </tr>
+</foreach>
+</foreach>
+
+
+
+<!--<tr>-->
+<!--<td rowspan="2">产品管理</td>-->
+<!--<td>品牌管理</td>-->
+<!--<td>品牌添加  品牌删除</td>-->
+<!--</tr>-->
+<!--<tr>-->
+<!--<td>分类管理</td>-->
+<!--<td>分类添加  分类删除</td>-->
+<!--</tr>-->
+
+
+</tbody>
+
+</body>
+</html>

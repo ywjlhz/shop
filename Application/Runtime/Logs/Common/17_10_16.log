@@ -1,0 +1,9 @@
+[ 2017-10-16T08:32:00+08:00 ] 127.0.0.1 /favicon.ico
+ERR: 无法加载模块:Favicon
+
+[ 2017-10-16T18:33:10+08:00 ] 127.0.0.1 /favicon.ico
+ERR: 无法加载模块:Favicon
+
+[ 2017-10-16T20:20:24+08:00 ] 127.0.0.1 /Public/Upload/goods/1
+ERR: 无法加载模块:Public
+

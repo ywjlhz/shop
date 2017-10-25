@@ -1,0 +1,107 @@
+[ 2017-09-18T15:07:21+08:00 ] 127.0.0.1 /index.php/Admin/Brand/del?id=20
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0047s ]
+SQL: UPDATE `tp_brand` SET `display`='0' WHERE `id` = 20 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-09-18T15:07:22+08:00 ] 127.0.0.1 /index.php/Admin/Brand/del?id=19
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0046s ]
+SQL: UPDATE `tp_brand` SET `display`='0' WHERE `id` = 19 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000505s ]
+
+[ 2017-09-18T15:43:30+08:00 ] 127.0.0.1 /index.php/Admin/goods/add.html
+ERR: 1366:Incorrect decimal value: 'daw' for column 'goods_price' at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO `tp_goods` (`goods_name`,`goods_number`,`category_id`,`brand_id`,`goods_price`,`goods_count`,`goods_sort`,`goods_description`,`goods_big_img`,`created_time`) VALUES ('wad','wad','5','21','daw','0','0','wa','2017-09-18/','1505720610')
+
+[ 2017-09-18T20:30:47+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del?id=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+NOTIC: [2048] Declaration of Common\Model\BasegoodsModel::_after_select() should be compatible with that of Think\Model::_after_select() D:\wamp\works\tbtwo\Application\Common\Model\BasegoodsModel.class.php Á¨¨ 11 Ë°å.
+NOTIC: [2048] Declaration of Common\Model\BasegoodsModel::_after_find() should be compatible with that of Think\Model::_after_find() D:\wamp\works\tbtwo\Application\Common\Model\BasegoodsModel.class.php Á¨¨ 11 Ë°å.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_insert() should be compatible with that of Think\Model::_before_insert() D:\wamp\works\tbtwo\Application\Admin\Model\GoodsModel.class.php Á¨¨ 13 Ë°å.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_update() should be compatible with that of Think\Model::_before_update() D:\wamp\works\tbtwo\Application\Admin\Model\GoodsModel.class.php Á¨¨ 13 Ë°å.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0078s ]
+SQL: UPDATE `tp_goods` SET `display`='0',`updated_time`='1505737847' WHERE `id` = 7 [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000590s ]
+
+[ 2017-09-18T20:30:49+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del?id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+NOTIC: [2048] Declaration of Common\Model\BasegoodsModel::_after_select() should be compatible with that of Think\Model::_after_select() D:\wamp\works\tbtwo\Application\Common\Model\BasegoodsModel.class.php Á¨¨ 11 Ë°å.
+NOTIC: [2048] Declaration of Common\Model\BasegoodsModel::_after_find() should be compatible with that of Think\Model::_after_find() D:\wamp\works\tbtwo\Application\Common\Model\BasegoodsModel.class.php Á¨¨ 11 Ë°å.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_insert() should be compatible with that of Think\Model::_before_insert() D:\wamp\works\tbtwo\Application\Admin\Model\GoodsModel.class.php Á¨¨ 13 Ë°å.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_update() should be compatible with that of Think\Model::_before_update() D:\wamp\works\tbtwo\Application\Admin\Model\GoodsModel.class.php Á¨¨ 13 Ë°å.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0056s ]
+SQL: UPDATE `tp_goods` SET `display`='0',`updated_time`='1505737849' WHERE `id` = 6 [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000549s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000582s ]
+
+[ 2017-09-18T20:30:52+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+NOTIC: [2048] Declaration of Common\Model\BasegoodsModel::_after_select() should be compatible with that of Think\Model::_after_select() D:\wamp\works\tbtwo\Application\Common\Model\BasegoodsModel.class.php Á¨¨ 11 Ë°å.
+NOTIC: [2048] Declaration of Common\Model\BasegoodsModel::_after_find() should be compatible with that of Think\Model::_after_find() D:\wamp\works\tbtwo\Application\Common\Model\BasegoodsModel.class.php Á¨¨ 11 Ë°å.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_insert() should be compatible with that of Think\Model::_before_insert() D:\wamp\works\tbtwo\Application\Admin\Model\GoodsModel.class.php Á¨¨ 13 Ë°å.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_update() should be compatible with that of Think\Model::_before_update() D:\wamp\works\tbtwo\Application\Admin\Model\GoodsModel.class.php Á¨¨ 13 Ë°å.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0081s ]
+SQL: UPDATE `tp_goods` SET `display`='0',`updated_time`='1505737852' WHERE `id` = 5 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000433s ]
+
+[ 2017-09-18T20:30:53+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del?id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+NOTIC: [2048] Declaration of Common\Model\BasegoodsModel::_after_select() should be compatible with that of Think\Model::_after_select() D:\wamp\works\tbtwo\Application\Common\Model\BasegoodsModel.class.php Á¨¨ 11 Ë°å.
+NOTIC: [2048] Declaration of Common\Model\BasegoodsModel::_after_find() should be compatible with that of Think\Model::_after_find() D:\wamp\works\tbtwo\Application\Common\Model\BasegoodsModel.class.php Á¨¨ 11 Ë°å.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_insert() should be compatible with that of Think\Model::_before_insert() D:\wamp\works\tbtwo\Application\Admin\Model\GoodsModel.class.php Á¨¨ 13 Ë°å.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_update() should be compatible with that of Think\Model::_before_update() D:\wamp\works\tbtwo\Application\Admin\Model\GoodsModel.class.php Á¨¨ 13 Ë°å.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0152s ]
+SQL: UPDATE `tp_goods` SET `display`='0',`updated_time`='1505737853' WHERE `id` = 3 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000429s ]
+
+[ 2017-09-18T20:34:31+08:00 ] 127.0.0.1 /index.php/Admin/goods/edit.html
+ERR: ‰∏çÂ≠òÂú®ÁöÑÂõæÂÉèÊñá‰ª∂
+
+[ 2017-09-18T20:35:16+08:00 ] 127.0.0.1 /index.php/Admin/goods/edit.html
+ERR: ‰∏çÂ≠òÂú®ÁöÑÂõæÂÉèÊñá‰ª∂
+
+[ 2017-09-18T20:36:34+08:00 ] 127.0.0.1 /index.php/Admin/goods/edit.html
+ERR: ‰∏çÂ≠òÂú®ÁöÑÂõæÂÉèÊñá‰ª∂
+
+[ 2017-09-18T21:30:07+08:00 ] 127.0.0.1 /index.php/Admin/brand/index.html
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2017-09-18T21:30:12+08:00 ] 127.0.0.1 /index.php/Admin/goods/index.html
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2017-09-18T21:30:23+08:00 ] 127.0.0.1 /index.php/Admin/category/index.html
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2017-09-18T21:36:48+08:00 ] 127.0.0.1 /index.php/Admin/login/login.html
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2017-09-18T23:54:13+08:00 ] 127.0.0.1 /index.php/Admin/login/login.html
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+

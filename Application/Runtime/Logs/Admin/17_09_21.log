@@ -1,0 +1,189 @@
+[ 2017-09-21T08:22:39+08:00 ] 127.0.0.1 /index.php/Admin/Goods/ajaxindex?page=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+NOTIC: [2048] Declaration of Common\Model\BasegoodsModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) D:\wamp\works\tbtwo\Application\Common\Model\BasegoodsModel.class.php 第 11 行.
+NOTIC: [2048] Declaration of Common\Model\BasegoodsModel::_after_find() should be compatible with Think\Model::_after_find(&$result, $options) D:\wamp\works\tbtwo\Application\Common\Model\BasegoodsModel.class.php 第 11 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\wamp\works\tbtwo\Application\Admin\Model\GoodsModel.class.php 第 13 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\wamp\works\tbtwo\Application\Admin\Model\GoodsModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( display<>0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT a.* FROM tp_goods a WHERE ( a.display<>0 ) LIMIT 2,2   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0020s ]
+SQL: SELECT `brand_name` FROM `tp_brand` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.0019s ]
+SQL: SELECT `category_name` FROM `tp_category` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `brand_name` FROM `tp_brand` WHERE `id` = 21 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `category_name` FROM `tp_category` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-09-21T08:22:40+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsDisplay?id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `tp_goods` SET `brand_id`='18',`category_id`='1',`goods_name`='iPhone6s',`goods_description`='土豪金',`goods_sort`='1',`goods_number`='X003',`goods_count`='300',`goods_weight`=NULL,`goods_price`='4222.00',`goods_mkprice`=NULL,`goods_integral`=NULL,`goods_big_img`='2017-09-18/59bfbfe9ccf92.jpg',`goods_small_img`=NULL,`goods_thumb_img`='2017-09-18/thumb_59bfbfe9ccf92.jpg',`goods_click`='0',`display`='-1',`created_time`='1505637900',`updated_time`='1505738729' WHERE `id` = 3 [ RunTime:0.0002s ]
+
+[ 2017-09-21T08:22:40+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsDisplay?id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `tp_goods` SET `brand_id`='18',`category_id`='1',`goods_name`='iPhone6s',`goods_description`='土豪金',`goods_sort`='1',`goods_number`='X003',`goods_count`='300',`goods_weight`=NULL,`goods_price`='4222.00',`goods_mkprice`=NULL,`goods_integral`=NULL,`goods_big_img`='2017-09-18/59bfbfe9ccf92.jpg',`goods_small_img`=NULL,`goods_thumb_img`='2017-09-18/thumb_59bfbfe9ccf92.jpg',`goods_click`='0',`display`='1',`created_time`='1505637900',`updated_time`='1505738729' WHERE `id` = 3 [ RunTime:0.0001s ]
+
+[ 2017-09-21T08:22:42+08:00 ] 127.0.0.1 /index.php/Admin/Goods/ajaxindex?page=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+NOTIC: [2048] Declaration of Common\Model\BasegoodsModel::_after_select() should be compatible with Think\Model::_after_select(&$resultSet, $options) D:\wamp\works\tbtwo\Application\Common\Model\BasegoodsModel.class.php 第 11 行.
+NOTIC: [2048] Declaration of Common\Model\BasegoodsModel::_after_find() should be compatible with Think\Model::_after_find(&$result, $options) D:\wamp\works\tbtwo\Application\Common\Model\BasegoodsModel.class.php 第 11 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_insert() should be compatible with Think\Model::_before_insert(&$data, $options) D:\wamp\works\tbtwo\Application\Admin\Model\GoodsModel.class.php 第 13 行.
+NOTIC: [2048] Declaration of Admin\Model\GoodsModel::_before_update() should be compatible with Think\Model::_before_update(&$data, $options) D:\wamp\works\tbtwo\Application\Admin\Model\GoodsModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0074s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE ( display<>0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT a.* FROM tp_goods a WHERE ( a.display<>0 ) LIMIT 0,2   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0020s ]
+SQL: SELECT `brand_name` FROM `tp_brand` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.0019s ]
+SQL: SELECT `category_name` FROM `tp_category` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `brand_name` FROM `tp_brand` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `category_name` FROM `tp_category` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-09-21T08:22:42+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsDisplay?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000319s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `tp_goods` SET `brand_id`='18',`category_id`='1',`goods_name`='iPhone X',`goods_description`='人脸解锁',`goods_sort`='1',`goods_number`='X001',`goods_count`='200',`goods_weight`='200g',`goods_price`='998.00',`goods_mkprice`='8100.00',`goods_integral`='3000',`goods_big_img`='2017-09-20/59c1d81d6589d.jpg',`goods_small_img`='20121018-174034-58977.jpg',`goods_thumb_img`='2017-09-20/thumb_59c1d81d6589d.jpg',`goods_click`='456',`display`='-1',`created_time`='1505823113',`updated_time`='1505875997' WHERE `id` = 1 [ RunTime:0.0001s ]
+
+[ 2017-09-21T08:22:43+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsDisplay?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000318s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `tp_goods` SET `brand_id`='18',`category_id`='1',`goods_name`='iPhone X',`goods_description`='人脸解锁',`goods_sort`='1',`goods_number`='X001',`goods_count`='200',`goods_weight`='200g',`goods_price`='998.00',`goods_mkprice`='8100.00',`goods_integral`='3000',`goods_big_img`='2017-09-20/59c1d81d6589d.jpg',`goods_small_img`='20121018-174034-58977.jpg',`goods_thumb_img`='2017-09-20/thumb_59c1d81d6589d.jpg',`goods_click`='456',`display`='1',`created_time`='1505823113',`updated_time`='1505875997' WHERE `id` = 1 [ RunTime:0.0001s ]
+
+[ 2017-09-21T08:47:08+08:00 ] 127.0.0.1 /index.php/Admin/Role/del?id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `tp_role` [ RunTime:0.0059s ]
+SQL: DELETE FROM `tp_role` WHERE `id` = 3 [ RunTime:0.0001s ]
+
+[ 2017-09-21T08:48:09+08:00 ] 127.0.0.1 /index.php/Admin/Role/del?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+SQL: SHOW COLUMNS FROM `tp_role` [ RunTime:0.0034s ]
+SQL: DELETE FROM `tp_role` WHERE `id` = 2 [ RunTime:0.0001s ]
+
+[ 2017-09-21T08:58:42+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsDisplay?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `tp_goods` SET `brand_id`='18',`category_id`='1',`goods_name`='iPhone X',`goods_description`='人脸解锁',`goods_sort`='1',`goods_number`='X001',`goods_count`='200',`goods_weight`='200g',`goods_price`='998.00',`goods_mkprice`='8100.00',`goods_integral`='3000',`goods_big_img`='2017-09-20/59c1d81d6589d.jpg',`goods_small_img`='20121018-174034-58977.jpg',`goods_thumb_img`='2017-09-20/thumb_59c1d81d6589d.jpg',`goods_click`='456',`display`='-1',`created_time`='1505823113',`updated_time`='1505875997' WHERE `id` = 1 [ RunTime:0.0002s ]
+
+[ 2017-09-21T08:58:42+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsDisplay?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000319s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `tp_goods` SET `brand_id`='18',`category_id`='1',`goods_name`='iPhone X',`goods_description`='人脸解锁',`goods_sort`='1',`goods_number`='X001',`goods_count`='200',`goods_weight`='200g',`goods_price`='998.00',`goods_mkprice`='8100.00',`goods_integral`='3000',`goods_big_img`='2017-09-20/59c1d81d6589d.jpg',`goods_small_img`='20121018-174034-58977.jpg',`goods_thumb_img`='2017-09-20/thumb_59c1d81d6589d.jpg',`goods_click`='456',`display`='1',`created_time`='1505823113',`updated_time`='1505875997' WHERE `id` = 1 [ RunTime:0.0001s ]
+
+[ 2017-09-21T08:58:43+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsDisplay?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `tp_goods` SET `brand_id`='18',`category_id`='1',`goods_name`='iPhone X',`goods_description`='人脸解锁',`goods_sort`='1',`goods_number`='X001',`goods_count`='200',`goods_weight`='200g',`goods_price`='998.00',`goods_mkprice`='8100.00',`goods_integral`='3000',`goods_big_img`='2017-09-20/59c1d81d6589d.jpg',`goods_small_img`='20121018-174034-58977.jpg',`goods_thumb_img`='2017-09-20/thumb_59c1d81d6589d.jpg',`goods_click`='456',`display`='-1',`created_time`='1505823113',`updated_time`='1505875997' WHERE `id` = 1 [ RunTime:0.0001s ]
+
+[ 2017-09-21T08:58:43+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsDisplay?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `tp_goods` SET `brand_id`='18',`category_id`='1',`goods_name`='iPhone X',`goods_description`='人脸解锁',`goods_sort`='1',`goods_number`='X001',`goods_count`='200',`goods_weight`='200g',`goods_price`='998.00',`goods_mkprice`='8100.00',`goods_integral`='3000',`goods_big_img`='2017-09-20/59c1d81d6589d.jpg',`goods_small_img`='20121018-174034-58977.jpg',`goods_thumb_img`='2017-09-20/thumb_59c1d81d6589d.jpg',`goods_click`='456',`display`='1',`created_time`='1505823113',`updated_time`='1505875997' WHERE `id` = 1 [ RunTime:0.0001s ]
+
+[ 2017-09-21T08:58:43+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsDisplay?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `tp_goods` SET `brand_id`='18',`category_id`='1',`goods_name`='iPhone X',`goods_description`='人脸解锁',`goods_sort`='1',`goods_number`='X001',`goods_count`='200',`goods_weight`='200g',`goods_price`='998.00',`goods_mkprice`='8100.00',`goods_integral`='3000',`goods_big_img`='2017-09-20/59c1d81d6589d.jpg',`goods_small_img`='20121018-174034-58977.jpg',`goods_thumb_img`='2017-09-20/thumb_59c1d81d6589d.jpg',`goods_click`='456',`display`='-1',`created_time`='1505823113',`updated_time`='1505875997' WHERE `id` = 1 [ RunTime:0.0001s ]
+
+[ 2017-09-21T08:58:43+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsDisplay?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `tp_goods` SET `brand_id`='18',`category_id`='1',`goods_name`='iPhone X',`goods_description`='人脸解锁',`goods_sort`='1',`goods_number`='X001',`goods_count`='200',`goods_weight`='200g',`goods_price`='998.00',`goods_mkprice`='8100.00',`goods_integral`='3000',`goods_big_img`='2017-09-20/59c1d81d6589d.jpg',`goods_small_img`='20121018-174034-58977.jpg',`goods_thumb_img`='2017-09-20/thumb_59c1d81d6589d.jpg',`goods_click`='456',`display`='1',`created_time`='1505823113',`updated_time`='1505875997' WHERE `id` = 1 [ RunTime:0.0001s ]
+
+[ 2017-09-21T08:58:43+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsDisplay?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000319s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `tp_goods` SET `brand_id`='18',`category_id`='1',`goods_name`='iPhone X',`goods_description`='人脸解锁',`goods_sort`='1',`goods_number`='X001',`goods_count`='200',`goods_weight`='200g',`goods_price`='998.00',`goods_mkprice`='8100.00',`goods_integral`='3000',`goods_big_img`='2017-09-20/59c1d81d6589d.jpg',`goods_small_img`='20121018-174034-58977.jpg',`goods_thumb_img`='2017-09-20/thumb_59c1d81d6589d.jpg',`goods_click`='456',`display`='-1',`created_time`='1505823113',`updated_time`='1505875997' WHERE `id` = 1 [ RunTime:0.0001s ]
+
+[ 2017-09-21T08:58:45+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsDisplay?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `tp_goods` SET `brand_id`='18',`category_id`='1',`goods_name`='iPhone X',`goods_description`='人脸解锁',`goods_sort`='1',`goods_number`='X001',`goods_count`='200',`goods_weight`='200g',`goods_price`='998.00',`goods_mkprice`='8100.00',`goods_integral`='3000',`goods_big_img`='2017-09-20/59c1d81d6589d.jpg',`goods_small_img`='20121018-174034-58977.jpg',`goods_thumb_img`='2017-09-20/thumb_59c1d81d6589d.jpg',`goods_click`='456',`display`='1',`created_time`='1505823113',`updated_time`='1505875997' WHERE `id` = 1 [ RunTime:0.0001s ]
+
+[ 2017-09-21T08:58:45+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsDisplay?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `tp_goods` SET `brand_id`='18',`category_id`='1',`goods_name`='iPhone X',`goods_description`='人脸解锁',`goods_sort`='1',`goods_number`='X001',`goods_count`='200',`goods_weight`='200g',`goods_price`='998.00',`goods_mkprice`='8100.00',`goods_integral`='3000',`goods_big_img`='2017-09-20/59c1d81d6589d.jpg',`goods_small_img`='20121018-174034-58977.jpg',`goods_thumb_img`='2017-09-20/thumb_59c1d81d6589d.jpg',`goods_click`='456',`display`='-1',`created_time`='1505823113',`updated_time`='1505875997' WHERE `id` = 1 [ RunTime:0.0001s ]
+
+[ 2017-09-21T08:58:51+08:00 ] 127.0.0.1 /index.php/Admin/Goods/goodsDisplay?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000318s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `tp_goods` SET `brand_id`='18',`category_id`='1',`goods_name`='iPhone X',`goods_description`='人脸解锁',`goods_sort`='1',`goods_number`='X001',`goods_count`='200',`goods_weight`='200g',`goods_price`='998.00',`goods_mkprice`='8100.00',`goods_integral`='3000',`goods_big_img`='2017-09-20/59c1d81d6589d.jpg',`goods_small_img`='20121018-174034-58977.jpg',`goods_thumb_img`='2017-09-20/thumb_59c1d81d6589d.jpg',`goods_click`='456',`display`='1',`created_time`='1505823113',`updated_time`='1505875997' WHERE `id` = 1 [ RunTime:0.0001s ]
+
+[ 2017-09-21T19:44:52+08:00 ] 127.0.0.1 /index.php/Admin/access/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `menu_id` FROM `tp_access` WHERE ( role_id= ) 
+
+[ 2017-09-21T20:09:29+08:00 ] 127.0.0.1 /index.php/Admin/Arraymenu_controller/Arraymenu_action.html
+ERR: 无法加载控制器:Arraymenu_controller
+
+[ 2017-09-21T20:42:04+08:00 ] 127.0.0.1 /index.php/Admin/role/index.html
+ERR: Think\Model:getAccess方法不存在！
+
+[ 2017-09-21T20:53:04+08:00 ] 127.0.0.1 /index.php/Admin/index/index.html
+ERR: 1054:Unknown column 'menu_id' in 'field list'
+ [ SQL语句 ] : SELECT `menu_id`,`menu_name`,`menu_controller`,`menu_action`,`pid`,`is_show` FROM `tp_menu` WHERE `id` = 10 LIMIT 1  
+
+[ 2017-09-21T20:56:03+08:00 ] 127.0.0.1 /index.php/Admin/index/index.html
+ERR: Think\Model:getAccess方法不存在！
+
+[ 2017-09-21T21:36:40+08:00 ] 127.0.0.1 /index.php/Admin/index/index.html
+ERR: 1054:Unknown column 'id' in 'order clause'
+ [ SQL语句 ] : SELECT `menu_id` FROM `tp_access` WHERE ( role_id=5 ) ORDER BY id asc 
+
+[ 2017-09-21T22:56:38+08:00 ] 127.0.0.1 /index.php/Admin/Access/index/rid/1.html
+ERR: XML标签语法错误 : name="dd['_child']" item="ddd" class="menu_<?php echo ($dd["id"]); ?
+
+[ 2017-09-21T22:57:10+08:00 ] 127.0.0.1 /index.php/Admin/Access/index/rid/1.html
+ERR: XML标签语法错误 : name="dd['_child']" item="ddd" class="menu_<?php echo ($dd["id"]); ?
+

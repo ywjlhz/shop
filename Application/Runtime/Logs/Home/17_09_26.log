@@ -1,0 +1,282 @@
+[ 2017-09-26T00:13:15+08:00 ] 127.0.0.1 /index.php/Home/goods/detail/id/Arraygoods_id.html
+ERR: 1054:Unknown column 'Arraygoods_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=Arraygoods_id ) 
+
+[ 2017-09-26T08:22:22+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/css/zzsc.css
+ERR: 1054:Unknown column 'css' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=css ) 
+
+[ 2017-09-26T08:22:23+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/js/jquery-1.8.2.min.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=js ) 
+
+[ 2017-09-26T08:22:23+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/js/jquery.colorbox-min.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=js ) 
+
+[ 2017-09-26T08:22:24+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/js/zzsc.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=js ) 
+
+[ 2017-09-26T08:23:26+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/css/zzsc.css
+ERR: 1054:Unknown column 'css' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=css ) 
+
+[ 2017-09-26T08:23:38+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/css/zzsc.css
+ERR: 1054:Unknown column 'css' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=css ) 
+
+[ 2017-09-26T08:29:16+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/css/zzsc.css
+ERR: 1054:Unknown column 'css' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=css ) 
+
+[ 2017-09-26T08:30:16+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/css/zzsc.css
+ERR: 1054:Unknown column 'css' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=css ) 
+
+[ 2017-09-26T08:31:01+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/css/zzsc.css
+ERR: 1054:Unknown column 'css' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=css ) 
+
+[ 2017-09-26T08:32:41+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/css/zzsc.css
+ERR: 1054:Unknown column 'css' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=css ) 
+
+[ 2017-09-26T08:33:57+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/css/zzsc.css
+ERR: 1054:Unknown column 'css' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=css ) 
+
+[ 2017-09-26T08:38:27+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/css/zzsc.css
+ERR: 1054:Unknown column 'css' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=css ) 
+
+[ 2017-09-26T08:38:59+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/css/zzsc.css
+ERR: 1054:Unknown column 'css' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=css ) 
+
+[ 2017-09-26T08:39:58+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/css/zzsc.css
+ERR: 1054:Unknown column 'css' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=css ) 
+
+[ 2017-09-26T08:40:30+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/css/zzsc.css
+ERR: 1054:Unknown column 'css' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=css ) 
+
+[ 2017-09-26T08:41:47+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/css/zzsc.css
+ERR: 1054:Unknown column 'css' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=css ) 
+
+[ 2017-09-26T08:43:10+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/css/zzsc.css
+ERR: 1054:Unknown column 'css' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=css ) 
+
+[ 2017-09-26T08:44:12+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/css/zzsc.css
+ERR: 1054:Unknown column 'css' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=css ) 
+
+[ 2017-09-26T08:44:29+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/css/zzsc.css
+ERR: 1054:Unknown column 'css' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=css ) 
+
+[ 2017-09-26T08:44:59+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/css/zzsc.css
+ERR: 1054:Unknown column 'css' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=css ) 
+
+[ 2017-09-26T08:46:00+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/css/zzsc.css
+ERR: 1054:Unknown column 'css' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=css ) 
+
+[ 2017-09-26T08:48:20+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/css/zzsc.css
+ERR: 1054:Unknown column 'css' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=css ) 
+
+[ 2017-09-26T08:48:53+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/css/zzsc.css
+ERR: 1054:Unknown column 'css' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=css ) 
+
+[ 2017-09-26T08:50:54+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/css/style.css
+ERR: 1054:Unknown column 'css' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=css ) 
+
+[ 2017-09-26T08:50:54+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/css/zzsc.css
+ERR: 1054:Unknown column 'css' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=css ) 
+
+[ 2017-09-26T08:50:54+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/js/jquery-1.8.2.min.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=js ) 
+
+[ 2017-09-26T08:50:54+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/js/jquery.colorbox-min.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=js ) 
+
+[ 2017-09-26T08:50:54+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/js/zzsc.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=js ) 
+
+[ 2017-09-26T08:50:54+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/images/goods.htm
+ERR: 1054:Unknown column 'images' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=images ) 
+
+[ 2017-09-26T08:50:54+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/images/controlbar.htm
+ERR: 1054:Unknown column 'images' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=images ) 
+
+[ 2017-09-26T08:55:06+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/css/style.css
+ERR: 1054:Unknown column 'css' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=css ) 
+
+[ 2017-09-26T08:55:07+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/css/zzsc.css
+ERR: 1054:Unknown column 'css' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=css ) 
+
+[ 2017-09-26T08:55:07+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/js/jquery.colorbox-min.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=js ) 
+
+[ 2017-09-26T08:55:07+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/js/jquery-1.8.2.min.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=js ) 
+
+[ 2017-09-26T08:55:07+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/js/jquery.colorbox-min.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=js ) 
+
+[ 2017-09-26T08:55:08+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/js/zzsc.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=js ) 
+
+[ 2017-09-26T08:55:59+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/css/style.css
+ERR: 1054:Unknown column 'css' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=css ) 
+
+[ 2017-09-26T09:22:58+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/css/zzsc.css
+ERR: 1054:Unknown column 'css' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=css ) 
+
+[ 2017-09-26T09:22:58+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/js/jquery.colorbox-min.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=js ) 
+
+[ 2017-09-26T09:22:58+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/js/jquery-1.8.2.min.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=js ) 
+
+[ 2017-09-26T09:22:58+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/js/jquery.colorbox-min.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=js ) 
+
+[ 2017-09-26T09:22:59+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/js/zzsc.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=js ) 
+
+[ 2017-09-26T09:23:53+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/js/jquery-1.8.2.min.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=js ) 
+
+[ 2017-09-26T09:23:53+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/js/zzsc.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=js ) 
+
+[ 2017-09-26T09:23:54+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/js/jquery.colorbox-min.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=js ) 
+
+[ 2017-09-26T09:23:54+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/js/zzsc.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=js ) 
+
+[ 2017-09-26T09:24:01+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/js/jquery-1.8.2.min.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=js ) 
+
+[ 2017-09-26T09:24:01+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/js/jquery.colorbox-min.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=js ) 
+
+[ 2017-09-26T09:24:01+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/js/zzsc.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=js ) 
+
+[ 2017-09-26T11:19:10+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/js/jquery-1.8.2.min.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=js ) 
+
+[ 2017-09-26T11:19:10+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/js/jquery.colorbox-min.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=js ) 
+
+[ 2017-09-26T11:19:10+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/js/zzsc.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=js ) 
+
+[ 2017-09-26T11:19:44+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/js/jquery-1.8.2.min.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=js ) 
+
+[ 2017-09-26T11:19:44+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/js/zzsc.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=js ) 
+
+[ 2017-09-26T11:19:44+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/js/jquery.colorbox-min.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=js ) 
+
+[ 2017-09-26T11:19:44+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/js/zzsc.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=js ) 
+
+[ 2017-09-26T11:23:22+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/js/jquery-1.8.2.min.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=js ) 
+
+[ 2017-09-26T11:23:22+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/js/jquery.colorbox-min.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=js ) 
+
+[ 2017-09-26T11:23:22+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/js/zzsc.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=js ) 
+
+[ 2017-09-26T15:37:28+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/js/jquery-1.8.2.min.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=js ) 
+
+[ 2017-09-26T15:37:29+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/js/jquery.colorbox-min.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=js ) 
+
+[ 2017-09-26T15:37:29+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/js/zzsc.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=js ) 
+
+[ 2017-09-26T15:38:53+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/js/jquery-1.8.2.min.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=js ) 
+
+[ 2017-09-26T15:38:53+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/js/jquery.colorbox-min.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=js ) 
+
+[ 2017-09-26T15:38:53+08:00 ] 127.0.0.1 /index.php/home/goods/detail/id/js/zzsc.js
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_goods_attr` WHERE ( goods_id=js ) 
+
+[ 2017-09-26T20:16:16+08:00 ] 127.0.0.1 /index.php/Home/cart/css/style.css
+ERR: 非法操作:css
+
+[ 2017-09-26T20:16:18+08:00 ] 127.0.0.1 /index.php/Home/cart/images/flow.htm
+ERR: 非法操作:images
+
+[ 2017-09-26T21:36:52+08:00 ] 127.0.0.1 /index.php/Home/cart/add.html
+ERR: 非法操作:add
+
+[ 2017-09-26T21:37:00+08:00 ] 127.0.0.1 /index.php/Home/cart/add.html
+ERR: 非法操作:add
+
+[ 2017-09-26T21:37:31+08:00 ] 127.0.0.1 /index.php/Home/cart/add.html
+ERR: 非法操作:add
+
+[ 2017-09-26T21:37:34+08:00 ] 127.0.0.1 /index.php/Home/cart/add.html
+ERR: 非法操作:add
+

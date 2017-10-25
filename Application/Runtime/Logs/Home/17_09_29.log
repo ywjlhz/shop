@@ -1,0 +1,52 @@
+[ 2017-09-29T08:24:31+08:00 ] 127.0.0.1 /
+ERR: SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+
+[ 2017-09-29T08:24:51+08:00 ] 127.0.0.1 /
+ERR: SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+
+[ 2017-09-29T08:24:53+08:00 ] 127.0.0.1 /
+ERR: SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+
+[ 2017-09-29T08:25:09+08:00 ] 127.0.0.1 /
+ERR: SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+
+[ 2017-09-29T08:25:13+08:00 ] 127.0.0.1 /
+ERR: SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+
+[ 2017-09-29T08:25:32+08:00 ] 127.0.0.1 /
+ERR: SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+
+[ 2017-09-29T08:26:43+08:00 ] 127.0.0.1 /
+ERR: SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+
+[ 2017-09-29T08:30:05+08:00 ] 127.0.0.1 /index.php/Home/cart/edit.html?goods_id=1&goods_cart_count=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `tp_category` WHERE ( display=1 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tp_cart` [ RunTime:0.0018s ]
+
+[ 2017-09-29T08:30:07+08:00 ] 127.0.0.1 /index.php/Home/cart/edit.html?goods_id=1&goods_cart_count=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_category` WHERE ( display=1 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tp_cart` [ RunTime:0.0018s ]
+
+[ 2017-09-29T08:30:08+08:00 ] 127.0.0.1 /index.php/Home/cart/edit.html?goods_id=1&goods_cart_count=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `tp_category` WHERE ( display=1 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tp_cart` [ RunTime:0.0018s ]
+

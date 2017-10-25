@@ -1,0 +1,168 @@
+<style type="text/css">
+    table {border:1px solid #dddddd; border-collapse: collapse; width:99%; margin:auto;}
+    td {border:1px solid #dddddd;}
+    #consignee_addr {width:450px;}
+</style>
+        <div class="block box">
+            <div class="blank"></div>
+            <div id="ur_here">
+                当前位置: <a href="#">首页</a> <code>&gt;</code> 购物流程
+            </div>
+        </div>
+        <div class="blank"></div>
+
+        <div class="blank"></div>
+        <div class="block">
+            <div class="flowBox">
+                <h6><span>商品列表</span></h6>
+                <form id="formCart">
+                    <table cellpadding="5" cellspacing="1">
+                        <tbody><tr>
+                                <th>商品名称</th>
+                                <th>属性</th>
+                                <th>市场价</th>
+                                <th>本店价</th>
+                                <th>购买数量</th>
+                                <th>小计</th>
+                                <th>操作</th>
+                            </tr>
+                           <foreach name="goods_data" key='key' item="d">
+                               <tr>
+                                   <td align="center">
+                                       <a href="#" target="_blank"><img style="width: 80px; height: 80px;" src="__UPLOAD__/goods/{$d.goods_thumb_img}" title="P806" /></a><br />
+                                       <a href="#" target="_blank" class="f6">{$d.goods_name}</a>
+                                   </td>
+                                       <td><foreach name="d.goods_attr_value" item="dd">{$key}:{$dd}<br /></foreach>
+                                   </td>
+                                   <td align="right">￥{$d.goods_mkprice}元</td>
+                                   <td align="right">￥<span class="price">{$d.goods_price}</span>元</td>
+                                   <td align="right">
+                                       <a href="javascript:void(0)" style="text-decoration: none" class="reduce">[-]</a>
+                                       <input name="goods_number[43]" disabled id="goods_number_43" value="{$d.goods_cart_count}" size="4" class="inputBg" style="text-align: center;" onkeydown="showdiv(this)" type="text" data-id="{$d.goods_id}" />
+                                       <a href="javascript:void(0)" style="text-decoration: none" class="add">[+]</a>
+                                   </td>
+                                   <td align="right">￥<span class="subtotal">{$d.subtotal}</span>元</td>
+                                   <td align="center">
+                                       <a href="#" class="f6">删除</a>
+                                   </td>
+                               </tr>
+                           </foreach>
+                        </tbody></table>
+                    <table cellpadding="5" cellspacing="1">
+                        <tbody><tr>
+                                <td>
+                                    购物金额总计 ￥<span id="total">{$total}</span>元              </td>
+                                <td align="right">
+                                    <input value="清空购物车" class="bnt_blue_1"  type="button" />
+                                    <input name="submit" class="bnt_blue_1" value="更新购物车" type="submit" />
+                                </td>
+                            </tr>
+                        </tbody></table>
+                    <input name="step" value="update_cart" type="hidden" />
+                </form>
+                <table cellpadding="5" cellspacing="0" width="99%">
+                    <tbody><tr>
+                            <td><a href="{:U('index/index')}"><img src="__HOME__/images/continue.gif" alt="continue" /></a></td>
+                            <td align="right">
+                                <!--判断用户是否登录-->
+                                <if condition="session('?uid')">
+                                    <a href="{:U('order/index')}"><img src="__HOME__/images/checkout.gif" alt="checkout" /></a>
+                                <else/>
+                                    <a href="javascript:void(0)" id="login_form"><img src="__HOME__/images/checkout.gif" alt="checkout" /></a>
+                                </if>
+                            </td>
+                        </tr>
+                    </tbody></table>
+            </div>
+            <div class="blank"></div>
+            <div class="blank5"></div>
+        </div>
+
+        <div class="blank"></div>
+<script src="__HOME__/js/jquery-1.7.2.js"></script>
+<script src="__HOME__/layer/layer.js"></script>
+<script>
+    //给结算按钮绑定事件
+    $('#login_form').on('click',function () {
+        //弹出一个登录框
+        layer.open({
+            type: 1,
+            title: '用户登录',
+            shadeClose: true,
+            shade: 0.8,
+            area: ['480px', '35%'],
+            content: '<form action="" method="post" id="login_form">' +
+            '<table align="left" border="0" cellpadding="3" cellspacing="5" width="100%">' +
+            '<tbody>' +
+            '<tr>' +
+            '<td align="right" width="15%">用户名</td>' +
+            '<td width="85%"><input name="user_name" size="25" class="inputBg" type="text"></td>' +
+            '</tr>' +
+            '<tr>' +
+            '<td align="right">密码</td>' +
+            '<td><input name="user_pwd" size="15" class="inputBg" type="password"></td>' +
+            '</tr><tr><td colspan="2"><input value="1" name="remember" id="remember" type="checkbox"><label for="remember">保存信息下次自动登录。</label></td></tr><tr><td>&nbsp;</td><td align="left"><input  value="" onclick="login_submit()" class="us_Submit" type="button" /></td></tr><tr><td></td><td><a href="#" class="f3">密码问题找回密码</a>&nbsp;&nbsp;&nbsp;<a href="#" class="f3">注册邮件找回密码</a></td></tr></tbody></table></form>' //iframe的url
+        });
+    })
+    function login_submit() {
+        //给layer弹出登录框绑定登录事件
+        var username = $('input[name=user_name]').val();
+        var password = $('input[name=user_pwd]').val();
+        //发送ajax请求
+        $.post("{:U('login/login')}",{'username':username,'password':password},function (data) {
+            if(data.status==0){
+                layer.msg(data.info);
+            }else{
+                location.href="{:U('order/index')}"
+            }
+        },'json');
+    }
+    //修改小计
+    function subtotalprice(_this,num) {
+        var priceobj = _this.parents('tr').find('.price');
+        var subtotal = priceobj.text()*num;
+        _this.parents('tr').find('.subtotal').text(subtotal);
+    }
+    //修改总计
+    function totalprice() {
+        var total=0;
+        //遍历小计对象
+        $('.subtotal').each(function () {
+            var subPrice = parseFloat($(this).text());
+            total+=subPrice;
+        })
+        $('#total').text(total);
+    }
+    $('.add').live('click',function () {
+        var id = $(this).prev().attr('data-id');
+        var num=$(this).prev().val();
+        num++;
+        $(this).prev().val(num);
+        //修改小计
+        var _this  = $(this);
+        subtotalprice(_this,num);
+        //修改总计
+        totalprice();
+        //发送ajax修改数据库
+        sendAjax(id,num);
+    })
+    $('.reduce').live('click',function () {
+        var id = $(this).next().attr('data-id');
+        var num=$(this).next().val();
+        if(num>1) {
+            num--;
+            $(this).next().val(num);
+            //修改小计
+            var _this  = $(this);
+            subtotalprice(_this,num);
+            //修改总计
+            totalprice();
+            //发送ajax修改数据库
+            sendAjax(id,num);
+        }
+    })
+    function sendAjax(id,num) {
+        $.get("{:U('cart/edit')}",{'goods_id':id,'goods_cart_count':num});
+    }
+
+</script>

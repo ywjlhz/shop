@@ -1,0 +1,45 @@
+[ 2017-09-23T11:41:29+08:00 ] 127.0.0.1 /index.php
+ERR: 模板不存在:./Application/Home/View/layout.html
+
+[ 2017-09-23T14:32:08+08:00 ] 127.0.0.1 /index.php/Home/index/listshow.html
+ERR: 非法操作:listshow
+
+[ 2017-09-23T14:32:54+08:00 ] 127.0.0.1 /index.php/Home/index/listshow.html
+ERR: 非法操作:listshow
+
+[ 2017-09-23T14:44:46+08:00 ] 127.0.0.1 /index.php/Home/login/css/style.css
+ERR: 非法操作:css
+
+[ 2017-09-23T14:44:49+08:00 ] 127.0.0.1 /index.php/Home/login/s
+ERR: 非法操作:s
+
+[ 2017-09-23T14:44:51+08:00 ] 127.0.0.1 /index.php/Home/login/css/style.css
+ERR: 非法操作:css
+
+[ 2017-09-23T14:45:47+08:00 ] 127.0.0.1 /index.php/Home/login/s
+ERR: 非法操作:s
+
+[ 2017-09-23T14:53:52+08:00 ] 127.0.0.1 /index.php/Home/login/s
+ERR: 非法操作:s
+
+[ 2017-09-23T19:43:34+08:00 ] 127.0.0.1 /index.php/Home/goods/showlist.html
+ERR: 模板不存在:./Application/Home/View/Goods/showlist.html
+
+[ 2017-09-23T21:14:44+08:00 ] 127.0.0.1 /index.php/Home/goods/showlist/id/1.html
+ERR: Think\Model:getTree方法不存在！
+
+[ 2017-09-23T21:21:07+08:00 ] 127.0.0.1 /index.php/Home/goods/showlist.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `tp_goods` WHERE ( display=1 and id= ) 
+
+[ 2017-09-23T21:25:50+08:00 ] 127.0.0.1 /index.php/Home/goods/showlist.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `tp_goods` WHERE ( display=1 and category_id= ) 
+
+[ 2017-09-23T21:29:38+08:00 ] 127.0.0.1 /index.php/Home/goods/showlist/id/5.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'an category_id=6 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `tp_goods` WHERE ( display=1 an category_id=6 ) 
+
+[ 2017-09-23T23:30:08+08:00 ] 127.0.0.1 /
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+

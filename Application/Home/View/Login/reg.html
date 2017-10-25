@@ -1,0 +1,139 @@
+<style>
+    .error{
+        color: red;
+    }
+</style>
+        <div class="block block1">  
+
+            <div class="block box">
+                <div class="blank"></div>
+                <div id="ur_here">
+                    当前位置: <a href="{:U('index/index')}">首页</a> <code>&gt;</code> 用户注册
+                </div>
+            </div>
+            <div class="blank"></div>
+
+
+            <!--放入view具体内容-->
+
+            <div class="block box">
+
+                <div class="usBox">
+                    <div class="usBox_2 clearfix">
+                        <div class="logtitle3"></div>
+                        <form id="reg_form" action="" method="post">
+                            <table cellpadding="5" cellspacing="3" style="text-align:left; width:100%; border:0;">
+                                <tbody>
+                                    <tr>
+                                        <td style="width:13%; text-align: right;"><label for="User_username" class="required">用户名
+                                        <span class="required">*</span></label>
+                                        </td>
+
+                                        <td style="width:87%;">
+                                            <input class="inputBg" size="25" name="username" id="user_name" type="text" value="" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="right">
+                                            <label for="password" class="required">密码 <span class="required">*</span></label>
+                                        </td>
+
+                                        <td>
+                                            <input class="inputBg" size="25" name="password" id="password" type="password" value="" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="right"><label for="password2">密码确认</label></td>
+                                        <td>
+                                            <input class="inputBg" size="25" name="password2" id="password2" type="password" />
+                                        </td>
+
+                                    </tr>
+                                    <tr>
+                                        <td align="right"><label for="email">邮箱</label></td>
+                                        <td>
+                                            <input class="inputBg" size="25" name="email" id="email" type="text" value="" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+
+                                        <td align="right"><label for="qq">qq号码</label></td>
+                                        <td>
+                                            <input class="inputBg" size="25" name="qq" id="qq" type="text" value="" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="right"><label for="phone">手机</label></td>
+                                        <td>
+                                            <input class="inputBg" size="25" name="phone" id="phone" type="text" value="" />
+                                        </td>
+                                    </tr>
+                                   
+                                  
+                                    <tr>
+
+                                        <!--textArea($model,$attribute,$htmlOptions=array())-->
+                                        <td align="right"><label for="captcha">验证码</label></td>
+                                        <td>
+                                        <input class="inputBg" size="25" name="captcha" id="captcha" type="text" value="" /><img src='{:U("login/captcha")}' onclick="this.src='__CONTROLLER__/captcha/t='+Math.random()" alt="看不清换一张" />
+                                                                 
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+
+                                        <td align="left">
+                                            <input name="Submit" value="" class="us_Submit_reg" type="submit" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">&nbsp;</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                        </form>        </div>
+                </div>
+            </div>
+            <!--放入view具体内容-->
+
+        </div>
+
+        <div class="blank"></div>
+        <script src="__HOME__/js/jquery-1.7.2.js"></script>
+        <script src="__HOME__/js/jquery.validate.min.js"></script>
+        <script>
+            $(function () {
+                $('#reg_form').validate({
+                    //验证规则
+                    rules:{
+                        username:{
+                            required:true,
+                            rangelength:[4,16]
+                        },
+                        password:'required',
+                        password2:{
+                            required:true,
+                            equalTo:'#password'
+                        },
+                        email:'email',
+                        phone:{
+                            required:true
+                        }
+                    },
+                    messages:{
+                        username:{
+                            required:'用户名不能为空',
+                            rangelength:'用户名在4-16位之间'
+                        },
+                        password:'密码不能为空',
+                        password2:{
+                            required:'确认密码不能为空!',
+                            equalTo:"两次输入的密码不一致!"
+                        },
+                        email:"邮箱格式不正确！",
+                        phone:'手机号不能为空'
+                    }
+                })
+            })
+        </script>

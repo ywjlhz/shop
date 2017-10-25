@@ -1,0 +1,128 @@
+[ 2017-09-15T09:42:13+08:00 ] 127.0.0.1 /index.php/Admin/Brand/del?id=88
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0052s ]
+SQL: DELETE FROM `tp_brand` WHERE `id` = 88 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000290s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000320s ]
+
+[ 2017-09-15T09:42:15+08:00 ] 127.0.0.1 /index.php/Admin/Brand/del?id=88
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0046s ]
+SQL: DELETE FROM `tp_brand` WHERE `id` = 88 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000299s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000329s ]
+
+[ 2017-09-15T09:47:26+08:00 ] 127.0.0.1 /index.php/Admin/Brand/del?id=88
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0077s ]
+SQL: UPDATE `tp_brand` SET `display`='0' WHERE `id` = 88 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000396s ]
+
+[ 2017-09-15T09:48:00+08:00 ] 127.0.0.1 /index.php/Admin/Brand/del?id=20
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0046s ]
+SQL: UPDATE `tp_brand` SET `display`='0' WHERE `id` = 20 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000397s ]
+
+[ 2017-09-15T09:48:16+08:00 ] 127.0.0.1 /index.php/Admin/Brand/del?id=21
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0068s ]
+SQL: UPDATE `tp_brand` SET `display`='0' WHERE `id` = 21 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000318s ]
+
+[ 2017-09-15T09:48:19+08:00 ] 127.0.0.1 /index.php/Admin/Brand/del?id=20
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0044s ]
+SQL: UPDATE `tp_brand` SET `display`='0' WHERE `id` = 20 [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000289s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000318s ]
+
+[ 2017-09-15T09:54:32+08:00 ] 127.0.0.1 /index.php/Admin/Brand/del?id=23
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0033s ]
+SQL: UPDATE `tp_brand` SET `display`='0' WHERE `id` = 23 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000439s ]
+
+[ 2017-09-15T09:54:35+08:00 ] 127.0.0.1 /index.php/Admin/Brand/del?id=22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0070s ]
+SQL: UPDATE `tp_brand` SET `display`='0' WHERE `id` = 22 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000300s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000330s ]
+
+[ 2017-09-15T16:04:11+08:00 ] 127.0.0.1 /admin/login/index
+ERR: 非法操作:index
+
+[ 2017-09-15T16:07:38+08:00 ] 127.0.0.1 /admin/login/index
+ERR: 非法操作:index
+
+[ 2017-09-15T16:32:14+08:00 ] 127.0.0.1 /index.php/Admin/Login/loginverity.html
+ERR: 非法操作:loginverity
+
+[ 2017-09-15T16:32:27+08:00 ] 127.0.0.1 /index.php/Admin/login/verity.html
+ERR: 非法操作:verity
+
+[ 2017-09-15T16:32:27+08:00 ] 127.0.0.1 /index.php/Admin/login/verity.html
+ERR: 非法操作:verity
+
+[ 2017-09-15T16:32:27+08:00 ] 127.0.0.1 /index.php/Admin/login/verity.html
+ERR: 非法操作:verity
+
+[ 2017-09-15T16:32:42+08:00 ] 127.0.0.1 /index.php/Admin/login/verity.html
+ERR: 非法操作:verity
+
+[ 2017-09-15T16:32:43+08:00 ] 127.0.0.1 /index.php/Admin/login/verity.html
+ERR: 非法操作:verity
+
+[ 2017-09-15T16:32:43+08:00 ] 127.0.0.1 /index.php/Admin/login/verity.html
+ERR: 非法操作:verity
+
+[ 2017-09-15T16:57:16+08:00 ] 127.0.0.1 /index.php/Admin/Login/index.html
+ERR: 非法操作:index
+
+[ 2017-09-15T17:02:46+08:00 ] 127.0.0.1 /index.php/Admin/Login/index.html
+ERR: 非法操作:index
+
+[ 2017-09-15T17:16:48+08:00 ] 127.0.0.1 /index.php/Admin/login/captcha.htmlArray
+ERR: 非法操作:captcha.htmlArray
+
+[ 2017-09-15T17:20:05+08:00 ] 127.0.0.1 /index.php/Admin/login/captcha.htmlArray
+ERR: 非法操作:captcha.htmlArray
+
+[ 2017-09-15T17:23:26+08:00 ] 127.0.0.1 /index.php/Admin/login/captcha.htmlArray
+ERR: 非法操作:captcha.htmlArray
+
+[ 2017-09-15T18:56:35+08:00 ] 127.0.0.1 /index.php/Admin/login/index.html
+ERR: 非法操作:index
+
+[ 2017-09-15T18:56:38+08:00 ] 127.0.0.1 /index.php/Admin/login/loin.html
+ERR: 非法操作:loin
+

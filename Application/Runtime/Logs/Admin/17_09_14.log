@@ -1,0 +1,302 @@
+[ 2017-09-14T14:55:18+08:00 ] 127.0.0.1 /admin/test/test3
+ERR: 1054:Unknown column 'brand_id' in 'field list'
+ [ SQL语句 ] : SELECT `brand_id`,`brand_name` FROM `tp_brand` ORDER BY id desc 
+
+[ 2017-09-14T16:04:31+08:00 ] 127.0.0.1 /index.php/Admin/brand/css/mine.css
+ERR: 非法操作:css
+
+[ 2017-09-14T16:06:04+08:00 ] 127.0.0.1 /index.php/Admin/brand/__Admin__%22mine.css%22
+ERR: 非法操作:__Admin__"mine.css"
+
+[ 2017-09-14T16:06:25+08:00 ] 127.0.0.1 /index.php/Admin/brand/__Admin__/mine.css
+ERR: 非法操作:__Admin__
+
+[ 2017-09-14T16:06:42+08:00 ] 127.0.0.1 /index.php/Admin/brand/__Admin__/css/mine.css
+ERR: 非法操作:__Admin__
+
+[ 2017-09-14T16:21:06+08:00 ] 127.0.0.1 /index.php/Admin/brand/index.html
+ERR: XML标签语法错误 : $datas as $val
+
+[ 2017-09-14T16:21:20+08:00 ] 127.0.0.1 /index.php/Admin/brand/index.html
+ERR: XML标签语法错误 : $datas as $val
+
+[ 2017-09-14T17:02:45+08:00 ] 127.0.0.1 /index.php/Admin/brand/edit/id/8.html
+ERR: 非法操作:edit
+
+[ 2017-09-14T18:32:29+08:00 ] 127.0.0.1 /index.php/Admin/brand/javascript_void(0)
+ERR: 非法操作:javascript_void(0)
+
+[ 2017-09-14T18:34:02+08:00 ] 127.0.0.1 /index.php/Admin/Brand/brand/del/id=12
+ERR: 非法操作:brand
+
+[ 2017-09-14T18:34:42+08:00 ] 127.0.0.1 /index.php/Admin/Brand/brand/del/id=12
+ERR: 非法操作:brand
+
+[ 2017-09-14T18:34:53+08:00 ] 127.0.0.1 /index.php/Admin/brand/javascript_void(0)
+ERR: 非法操作:javascript_void(0)
+
+[ 2017-09-14T21:29:00+08:00 ] 127.0.0.1 /index.php/Admin/Brand/del?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0047s ]
+SQL: DELETE FROM `tp_brand` WHERE `id` = 1 [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_brand`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000429s ]
+
+[ 2017-09-14T21:29:24+08:00 ] 127.0.0.1 /index.php/Admin/Brand/del?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0070s ]
+SQL: DELETE FROM `tp_brand` WHERE `id` = 2 [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_brand`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000384s ]
+
+[ 2017-09-14T21:29:25+08:00 ] 127.0.0.1 /index.php/Admin/Brand/del?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0045s ]
+SQL: DELETE FROM `tp_brand` WHERE `id` = 2 [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tp_brand`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000388s ]
+
+[ 2017-09-14T21:29:25+08:00 ] 127.0.0.1 /index.php/Admin/Brand/del?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0044s ]
+SQL: DELETE FROM `tp_brand` WHERE `id` = 2 [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tp_brand`  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000384s ]
+
+[ 2017-09-14T21:29:25+08:00 ] 127.0.0.1 /index.php/Admin/Brand/del?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0049s ]
+SQL: DELETE FROM `tp_brand` WHERE `id` = 2 [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_brand`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000395s ]
+
+[ 2017-09-14T21:31:40+08:00 ] 127.0.0.1 /index.php/Admin/Brand/del?id=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0046s ]
+SQL: DELETE FROM `tp_brand` WHERE `id` = 7 [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tp_brand`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000430s ]
+
+[ 2017-09-14T21:33:17+08:00 ] 127.0.0.1 /index.php/Admin/Brand/del?id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0071s ]
+SQL: DELETE FROM `tp_brand` WHERE `id` = 3 [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_brand`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000412s ]
+
+[ 2017-09-14T21:33:34+08:00 ] 127.0.0.1 /index.php/Admin/Brand/del?id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0072s ]
+SQL: DELETE FROM `tp_brand` WHERE `id` = 4 [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_brand`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000425s ]
+
+[ 2017-09-14T21:39:21+08:00 ] 127.0.0.1 /index.php/Admin/Brand/del?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0046s ]
+SQL: DELETE FROM `tp_brand` WHERE `id` = 5 [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_brand`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000430s ]
+
+[ 2017-09-14T21:46:07+08:00 ] 127.0.0.1 /index.php/Admin/Brand/del?id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0045s ]
+SQL: DELETE FROM `tp_brand` WHERE `id` = 6 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000386s ]
+
+[ 2017-09-14T21:46:50+08:00 ] 127.0.0.1 /index.php/Admin/Brand/del?id=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0069s ]
+SQL: DELETE FROM `tp_brand` WHERE `id` = 9 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000426s ]
+
+[ 2017-09-14T21:47:17+08:00 ] 127.0.0.1 /index.php/Admin/Brand/del?id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0031s ]
+SQL: DELETE FROM `tp_brand` WHERE `id` = 13 [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000390s ]
+
+[ 2017-09-14T21:51:07+08:00 ] 127.0.0.1 /index.php/Admin/Brand/del?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0081s ]
+SQL: DELETE FROM `tp_brand` WHERE `id` = 10 [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000418s ]
+
+[ 2017-09-14T21:51:31+08:00 ] 127.0.0.1 /index.php/Admin/Brand/del?id=14
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0037s ]
+SQL: DELETE FROM `tp_brand` WHERE `id` = 14 [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000379s ]
+
+[ 2017-09-14T21:53:01+08:00 ] 127.0.0.1 /index.php/Admin/Brand/del?id=8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0044s ]
+SQL: DELETE FROM `tp_brand` WHERE `id` = 8 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000422s ]
+
+[ 2017-09-14T21:53:36+08:00 ] 127.0.0.1 /index.php/Admin/Brand/del?id=15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0070s ]
+SQL: DELETE FROM `tp_brand` WHERE `id` = 15 [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000432s ]
+
+[ 2017-09-14T21:55:52+08:00 ] 127.0.0.1 /index.php/Admin/Brand/del?id=16
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0069s ]
+SQL: DELETE FROM `tp_brand` WHERE `id` = 16 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000384s ]
+
+[ 2017-09-14T21:57:23+08:00 ] 127.0.0.1 /index.php/Admin/Brand/del?id=17
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0045s ]
+SQL: DELETE FROM `tp_brand` WHERE `id` = 17 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000431s ]
+
+[ 2017-09-14T21:59:00+08:00 ] 127.0.0.1 /index.php/Admin/Brand/del?id=88
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0044s ]
+SQL: DELETE FROM `tp_brand` WHERE `id` = 88 [ RunTime:0.0004s ]
+
+[ 2017-09-14T21:59:02+08:00 ] 127.0.0.1 /index.php/Admin/Brand/del?id=88
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0069s ]
+SQL: DELETE FROM `tp_brand` WHERE `id` = 88 [ RunTime:0.0002s ]
+
+[ 2017-09-14T21:59:02+08:00 ] 127.0.0.1 /index.php/Admin/Brand/del?id=88
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0048s ]
+SQL: DELETE FROM `tp_brand` WHERE `id` = 88 [ RunTime:0.0003s ]
+
+[ 2017-09-14T21:59:04+08:00 ] 127.0.0.1 /index.php/Admin/Brand/del?id=88
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0045s ]
+SQL: DELETE FROM `tp_brand` WHERE `id` = 88 [ RunTime:0.0001s ]
+
+[ 2017-09-14T21:59:04+08:00 ] 127.0.0.1 /index.php/Admin/Brand/del?id=88
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0049s ]
+SQL: DELETE FROM `tp_brand` WHERE `id` = 88 [ RunTime:0.0003s ]
+
+[ 2017-09-14T21:59:34+08:00 ] 127.0.0.1 /index.php/Admin/Brand/del?id=88
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0046s ]
+SQL: DELETE FROM `tp_brand` WHERE `id` = 88 [ RunTime:0.0002s ]
+
+[ 2017-09-14T21:59:34+08:00 ] 127.0.0.1 /index.php/Admin/Brand/del?id=88
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0046s ]
+SQL: DELETE FROM `tp_brand` WHERE `id` = 88 [ RunTime:0.0002s ]
+
+[ 2017-09-14T22:00:39+08:00 ] 127.0.0.1 /index.php/Admin/Brand/del?id=88
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0031s ]
+SQL: DELETE FROM `tp_brand` WHERE `id` = 88 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000377s ]
+
+[ 2017-09-14T22:01:05+08:00 ] 127.0.0.1 /index.php/Admin/Brand/del?id=88
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0048s ]
+SQL: DELETE FROM `tp_brand` WHERE `id` = 88 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000427s ]
+
+[ 2017-09-14T22:03:30+08:00 ] 127.0.0.1 /index.php/Admin/Brand/del?id=88
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+SQL: SHOW COLUMNS FROM `tp_brand` [ RunTime:0.0054s ]
+SQL: DELETE FROM `tp_brand` WHERE `id` = 88 [ RunTime:0.0007s ]
+

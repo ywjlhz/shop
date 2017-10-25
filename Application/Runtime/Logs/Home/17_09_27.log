@@ -1,0 +1,4 @@
+[ 2017-09-27T18:51:07+08:00 ] 127.0.0.1 /index.php/Home/Goods/showlist/brand_id/20/id/4.html
+ERR: 1146:Table 'a0922102211.tp_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_category`
+

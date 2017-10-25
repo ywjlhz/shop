@@ -1,0 +1,158 @@
+
+		
+        <div class="block box">
+            <div class="blank"></div>
+            <div id="ur_here">
+                当前位置: <a href="#">首页</a> <code>&gt;</code> <a href="#"><volist name="datas" id="vo" offset="1" length="1">{$vo.category_name}</volist>类型</a>
+            </div>
+        </div>
+        <div class="blank"></div>
+
+        <div class="block box">
+
+        <div class="block clearfix">
+            <div class="AreaL">
+                <h3><span>商品分类</span></h3> 
+                <div id="category_tree" class="box_1">
+                    <foreach name="header_category_datas" item="d">
+                    <dl>
+                        <dt><a href="{:U('goods/showlist','id='.$d['id'])}">{$d['category_name']}</a></dt>
+                        <dd>       </dd>
+                    </dl>
+                    </foreach>
+                </div>
+                <div class="blank"></div><div style="display: block;" class="box" id="history_div">
+                    <h3><span>浏览历史</span></h3>
+                    <div class="box_1">
+
+                        <div class="boxCenterList clearfix" id="history_list">
+                            <ul class="clearfix">
+                                <li class="goodsimg">
+                                    <a href="#" target="_blank">
+                                        <img src="__HOME__/images/8_thumb_G_1241425513488.jpg" alt="飞利浦9@9v" class="B_blue" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank" title="飞利浦9@9v">飞利浦9@9v</a><br />
+                                    本店售价：<font class="f1">￥399元</font><br />
+                                </li>
+                            </ul>
+                            <ul class="clearfix">
+                                <li class="goodsimg">
+                                    <a href="#" target="_blank">
+                                        <img src="__HOME__/images/9_thumb_G_1241511871555.jpg" alt="诺基亚E66" class="B_blue" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank" title="诺基亚E66">诺基亚E66</a><br />
+                                    本店售价：<font class="f1">￥2298元</font><br />
+                                </li>
+                            </ul>
+                            <ul id="clear_history">
+                                <a onclick="clear_history()">[清空]</a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="blank5"></div>
+            </div>
+
+
+            <div class="AreaR">
+
+                <div class="box">
+                    <div class="box_1">
+                        <h3><span>商品筛选</span></h3>
+                        <div class="screeBox">
+                            <strong>品牌：</strong>
+                            <if condition="$brand_id eq 0">
+                            <span><a href="{:U('showlist',array('id'=>$category_id))}" style="color: white">全部</a></span>
+                                <else/>
+                                <a href="{:U('showlist',array('id'=>$category_id))}">全部</a>
+                            </if>
+                            <input type="hidden" name='id' value="{$category_id}">
+                            <foreach name="brand_datas" item="d">
+                                <if condition="$d[id] eq $brand_id">
+                                <span><a href="{:U('showlist',array('brand_id'=>$d['id'],'id'=>$category_id))}" style="color: white">{$d.brand_name}</a></span>
+                                    <else/>
+                                    <a href="{:U('showlist',array('brand_id'=>$d['id'],'id'=>$category_id))}">{$d.brand_name}</a>&nbsp;
+                                </if>
+                            </foreach>
+                        </div>
+                        <div class="screeBox">
+                            <strong>价格：</strong>
+                            <span>全部</span>
+                            <a href="#">200&nbsp;-&nbsp;1700</a>&nbsp;
+                            <a href="#">1700&nbsp;-&nbsp;3200</a>&nbsp;
+                            <a href="#">4700&nbsp;-&nbsp;6200</a>&nbsp;
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+                <div class="blank"></div>
+
+
+
+                <div class="blank"></div>
+                <div class="box">
+                    <div class="box_1">
+                        <h3>
+                            <span>商品列表</span>
+                            <form method="GET" class="sort" name="listform">
+                                显示方式：
+                                <a href="#"><img src="__HOME__/images/display_mode_list.gif" alt=""></a>
+                                <a href="#"><img src="__HOME__/images/display_mode_grid_act.gif" alt=""></a>
+                                <a href="#"><img src="__HOME__/images/display_mode_text.gif" alt=""></a>&nbsp;&nbsp;
+
+                                <a href="#"><img src="__HOME__/images/goods_id_DESC.gif" alt="按上架时间排序"></a>
+                                <a href="#"><img src="__HOME__/images/shop_price_default.gif" alt="按价格排序"></a>
+                                <a href="#"><img src="__HOME__/images/last_update_default.gif" alt="按更新时间排序"></a>
+                                <input name="category" value="3" type="hidden" />
+                                <input name="display" value="grid" id="display" type="hidden" />
+                                <input name="brand" value="0" type="hidden" />
+                                <input name="price_min" value="0" type="hidden" />
+                                <input name="price_max" value="0" type="hidden" />
+                                <input name="filter_attr" value="0" type="hidden" />
+                                <input name="page" value="1" type="hidden" />
+                                <input name="sort" value="goods_id" type="hidden" />
+                                <input name="order" value="DESC" type="hidden" />
+                            </form>
+                        </h3>
+                        <form name="compareForm" action="compare.php" method="post" onsubmit="return compareGoods(this);">
+                            <div class="clearfix goodsBox" style="border: medium none; padding: 11px 0pt 10px 5px;">
+                                <foreach name="datas" item="d">
+                                    <div class="goodsItem">
+                                        <a href="{:U('goods/detail','id='.$d[id])}"><img src="__UPLOAD__/goods/{$d.goods_thumb_img}" alt="{$d.goods_name}" class="goodsimg"></a><br />
+                                        <p><a href="{:U('goods/detail','id='.$d[id])}" title="{$d.goods_name}">{$d.goods_name}</a></p>
+                                        <font class="market_s">￥{$d.goods_price}元</font><br />
+                                        <font class="shop_s">￥{$d.goods_price}元</font><br />
+                                        <a href="#"><img src="__HOME__/images/goumai.gif"></a> &nbsp;&nbsp;&nbsp;&nbsp;
+                                        <a href="#"><img src="__HOME__/images/shoucang.gif"></a>
+                                    </div>
+                                </foreach>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+                <div class="blank5"></div>
+                <form name="selectPageForm" action="/category.php" method="get">
+                    <div id="page" class="page">
+                        {$paging}
+                    </div>
+                </form>
+            </div>  
+
+        </div>
+
+        </div>
+		
+		
+		
+		
+
+        <div class="blank"></div>
+        
